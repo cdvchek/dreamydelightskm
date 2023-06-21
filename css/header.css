@@ -1,0 +1,45 @@
+/* Header Image Positioning */
+
+header {
+    width: 100%;
+}
+
+#header-image {
+    width: 100%;
+    height: 200px;
+}
+
+/* Navbar Title */
+
+#nav-title-div {
+    background-color: pink;
+    padding: 0 20px 0 20px;
+    display: inline-block;
+}
+
+#nav-title-h1 {
+    color: rgb(82, 0, 82);
+}
+
+/* Navbar Button Design */
+
+.nav-button {
+    position: relative;
+    bottom: 2.5px;
+    margin-left: 40px;
+    border: none;
+    background: none;
+    color: rgb(82, 0, 82);
+    font-size: 90%;
+    transition: 0.3s;
+}
+
+.nav-button:hover {
+    color: rgb(157, 0, 157);
+    transform: scale(1.2);
+}
+
+.active {
+    color: rgb(157, 0, 157);
+    transform: scale(1.2);
+}
