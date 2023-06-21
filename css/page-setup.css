@@ -1,9 +1,9 @@
 #page-home {
-    display: none;
+    /* display: none; */
 }
 
 #page-flavors {
-    /* display: none; */
+    display: none;
 }
 
 #page-special-orders {
