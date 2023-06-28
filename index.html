@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/body.css">
     <link rel="stylesheet" href="./css/page-setup.css">
     <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/page-home.css">
     <link rel="stylesheet" href="./css/page-flavors.css">
 
     <!-- Title shows what displays on the tab in the browser -->
@@ -28,9 +29,45 @@
         <img id="header-image" src="./images/ddkm_header.jpeg" alt="dreamy delights header image">
     </header>
     <div id="page-home" class="page">
-        <h1 id="home-title">Hello!</h1>
-        <p id="home-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur delectus sunt vitae minima voluptates ea quidem, unde maxime, est esse iure quaerat, earum sit nesciunt dignissimos accusamus laboriosam numquam molestiae! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut sit totam tenetur aperiam voluptas consequuntur explicabo dolorum ad perspiciatis eveniet. Quos aliquid quis placeat saepe voluptatem, magnam sunt quo rerum!</p>
-        <div id="image-carousel"></div>
+        <div id="home-container">
+            <div id="home-text">
+                <h1 id="home-title">Hello!</h1>
+                <p id="home-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur delectus sunt vitae minima voluptates ea quidem, unde maxime, est esse iure quaerat, earum sit nesciunt dignissimos accusamus laboriosam numquam molestiae! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut sit totam tenetur aperiam voluptas consequuntur explicabo dolorum ad perspiciatis eveniet. Quos aliquid quis placeat saepe voluptatem, magnam sunt quo rerum!</p>
+            </div>
+            <div id="home-image">
+                <div class="slideshow-container">
+
+                    <div class="mySlides fade">
+                    <div class="numbertext">1 / 3</div>
+                    <img src="./images/cheesecake-one.jpeg">
+                    <div class="text">Red Velvet</div>
+                    </div>
+                    
+                    <div class="mySlides fade">
+                    <div class="numbertext">2 / 3</div>
+                    <img src="./images/cheesecake-two.jpeg">
+                    <div class="text">New York</div>
+                    </div>
+                    
+                    <div class="mySlides fade">
+                    <div class="numbertext">3 / 3</div>
+                    <img src="./images/cheesecake-placeholder.jpeg">
+                    <div class="text">Chocolate</div>
+                    </div>
+                    
+                    <a class="prev" onclick="plusSlides(-1)">❮</a>
+                    <a class="next" onclick="plusSlides(1)">❯</a>
+                    
+                    </div>
+                    <br>
+                    
+                    <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span> 
+                    <span class="dot" onclick="currentSlide(2)"></span> 
+                    <span class="dot" onclick="currentSlide(3)"></span> 
+                    </div>
+            </div>
+        </div>
     </div>
     <div id="page-flavors" class="page">
         <div id="flavor-heading">
@@ -313,5 +350,6 @@
 
     </footer>
 </body>
+<script src="./js/page-home.js"></script>
 <script src="./js/page-navigation.js"></script>
 </html>
