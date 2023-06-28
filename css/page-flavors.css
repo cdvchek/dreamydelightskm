@@ -1,5 +1,11 @@
+#flavor-heading {
+    margin-bottom: 75px;
+}
+
 #flavors-title {
     text-align: center;
+    font-size: 300%;
+    color: rgb(255, 118, 118);
 }
 
 #flavors-list-div {
@@ -8,10 +14,50 @@
     font-size: 120%;
 }
 
+#flavors-list-div > ul > li > a {
+    text-decoration: none;
+    color: black;
+}
+
 .flavors-ul-left {
     margin-left: 120px;
 }
 
 #flavors-footnote {
     text-align: center;
+}
+
+.flavor {
+    padding: 0 150px 0 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.reversed {
+    flex-direction: row-reverse;
+}
+
+.straight > .flavor-text {
+    margin-right: 50px;
+}
+
+.reversed > .flavor-text {
+    margin-left: 50px;
+}
+
+.flavor-text > h2 {
+    font-size: 300%;
+    color: rgb(255, 118, 118);
+}
+
+.flavor-text > p {
+    font-size: 120%;
+}
+
+.flavor-image > img {
+    height: 450px;
+    width: 450px;
+    border-radius: 40px;
+    border: 10px pink solid;
 }

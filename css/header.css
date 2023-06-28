@@ -29,17 +29,17 @@ header {
     margin-left: 40px;
     border: none;
     background: none;
-    color: rgb(82, 0, 82);
+    color: rgb(219, 76, 76);
     font-size: 90%;
     transition: 0.3s;
 }
 
 .nav-button:hover {
-    color: rgb(157, 0, 157);
-    transform: scale(1.2);
+    color: rgb(219, 76, 76);
+    transform: scale(1.25);
 }
 
 .active {
-    color: rgb(157, 0, 157);
-    transform: scale(1.2);
+    color: rgb(219, 76, 76);
+    transform: scale(1.25);
 }
